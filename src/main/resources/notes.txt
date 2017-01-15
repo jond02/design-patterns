@@ -1,0 +1,12 @@
+ch 1:
+
+Strategy Pattern: defines a family of algorithms (quack and fly), encapsulates each one,
+and makes them interchangeable (classes implement interfaces). Strategy lets the algorithm
+vary independently from the clients that use it (duck subclasses).
+
+Identify the aspects of your application that vary and separate them from what stays the same
+program to an interface, not an implementation
+Favor composition over inheritance (Duck delegates quack and fly behavior to interfaces)
+
+
+
