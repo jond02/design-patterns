@@ -1,6 +1,6 @@
-ch 1:
+ch 1 - Strategy:
 
-Strategy Pattern: defines a family of algorithms (quack and fly), encapsulates each one,
+Strategy: defines a family of algorithms (quack and fly), encapsulates each one,
 and makes them interchangeable (classes implement interfaces). Strategy lets the algorithm
 vary independently from the clients that use it (duck subclasses).
 
@@ -8,5 +8,12 @@ Identify the aspects of your application that vary and separate them from what s
 program to an interface, not an implementation
 Favor composition over inheritance (Duck delegates quack and fly behavior to interfaces)
 
+ch 2 - Observer:
 
+Observer: Defines a one-to-many dependency between objects so that when one object changes state,
+all its dependents are notified and updated automatically.
+
+Strive for loosely coupled designs for objects that interact
+
+ch 3 -
 

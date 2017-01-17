@@ -1,4 +1,4 @@
-package com.distantember.designpatterns.duck;
+package com.distantember.designpatterns.strategy;
 
 /**
  * Created by jondann on 1/15/17.
