@@ -1,6 +1,5 @@
-package com.distantember.designpatterns.observer.java;
+package com.distantember.designpatterns.observer.javaNative;
 
-import java.util.List;
 import java.util.Observable;
 
 /**

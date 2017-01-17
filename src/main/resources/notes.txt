@@ -15,5 +15,16 @@ all its dependents are notified and updated automatically.
 
 Strive for loosely coupled designs for objects that interact
 
-ch 3 -
+Swing uses observers: JButton - button.addActionListener(new ActionListener);
+
+ch 3 - Decorator:
+
+Decorator: Attaches additional responsibilities to an object dynamically. Decorators provide
+a flexible alternative to subclassing for extending functionality.
+
+Classes should be open for extension, but closed for modifications
+
+Java I/O uses many decorators: FileInputStream(new BufferedInputStream(new LineNumberInputStream("file.txt")));
+
+
 

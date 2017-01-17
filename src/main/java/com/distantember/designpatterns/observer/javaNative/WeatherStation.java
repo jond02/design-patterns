@@ -1,4 +1,4 @@
-package com.distantember.designpatterns.observer.java;
+package com.distantember.designpatterns.observer.javaNative;
 
 /**
  * Created by jondann on 1/16/17.
