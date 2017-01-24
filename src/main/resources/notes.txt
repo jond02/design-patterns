@@ -33,6 +33,30 @@ class to instantiate. Factory Method lets a class defer instantiation to subclas
 
 Depend upon abstractions. Do not depend upon concrete classes.
 
-Abstract Factory : provides an interface for creating families of related or dependent objects
+Abstract Factory: provides an interface for creating families of related or dependent objects
 without specifying their concrete classes.
+
+ch 5 - Singleton:
+
+Singleton: Ensures a class has only one instance, and provides a global point of access to it.
+
+ch 6 - Command:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
