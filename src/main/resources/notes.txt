@@ -26,5 +26,13 @@ Classes should be open for extension, but closed for modifications
 
 Java I/O uses many decorators: FileInputStream(new BufferedInputStream(new LineNumberInputStream("file.txt")));
 
+ch 4 - Factory:
 
+Factory Method: Defines an interface for creating an object, but lets subclasses decide which
+class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+Depend upon abstractions. Do not depend upon concrete classes.
+
+Abstract Factory : provides an interface for creating families of related or dependent objects
+without specifying their concrete classes.
 
