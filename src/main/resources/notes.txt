@@ -42,6 +42,9 @@ Singleton: Ensures a class has only one instance, and provides a global point of
 
 ch 6 - Command:
 
+Command: encapsulates a request as an object, thereby letting you parameterize other objects with
+different requests, queue or log requests, and support undoable operations.
+
 
 
 
