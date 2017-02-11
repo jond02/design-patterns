@@ -1,4 +1,4 @@
-ch 1 - Strategy:
+ch 1 - Strategy
 
 Strategy: defines a family of algorithms (quack and fly), encapsulates each one,
 and makes them interchangeable (classes implement interfaces). Strategy lets the algorithm
@@ -8,7 +8,7 @@ Identify the aspects of your application that vary and separate them from what s
 program to an interface, not an implementation
 Favor composition over inheritance (Duck delegates quack and fly behavior to interfaces)
 
-ch 2 - Observer:
+ch 2 - Observer
 
 Observer: Defines a one-to-many dependency between objects so that when one object changes state,
 all its dependents are notified and updated automatically.
@@ -17,7 +17,7 @@ Strive for loosely coupled designs for objects that interact
 
 Swing uses observers: JButton - button.addActionListener(new ActionListener);
 
-ch 3 - Decorator:
+ch 3 - Decorator
 
 Decorator: Attaches additional responsibilities to an object dynamically. Decorators provide
 a flexible alternative to subclassing for extending functionality.
@@ -26,7 +26,7 @@ Classes should be open for extension, but closed for modifications
 
 Java I/O uses many decorators: FileInputStream(new BufferedInputStream(new LineNumberInputStream("file.txt")));
 
-ch 4 - Factory:
+ch 4 - Factory
 
 Factory Method: Defines an interface for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer instantiation to subclasses.
@@ -36,16 +36,19 @@ Depend upon abstractions. Do not depend upon concrete classes.
 Abstract Factory: provides an interface for creating families of related or dependent objects
 without specifying their concrete classes.
 
-ch 5 - Singleton:
+ch 5 - Singleton
 
 Singleton: Ensures a class has only one instance, and provides a global point of access to it.
 
-ch 6 - Command:
+ch 6 - Command
 
 Command: encapsulates a request as an object, thereby letting you parameterize other objects with
 different requests, queue or log requests, and support undoable operations.
 
+ch 7 - Adapter
 
+Adapter: converts the interface of a class into another interface the clients expect. Adapter lets
+classes work together that couldn't otherwise because of the incompatible interfaces.
 
 
 
