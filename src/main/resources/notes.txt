@@ -50,6 +50,31 @@ ch 7 - Adapter
 Adapter: converts the interface of a class into another interface the clients expect. Adapter lets
 classes work together that couldn't otherwise because of the incompatible interfaces.
 
+ch 7 - Facade
+
+Facade: provides a unified interface to a set of interfaces in a subsystem. Facade defines a
+higher-level interface that makes the subsystem easier to use.
+
+Principle of Least Knowledge: talk only to your immediate friends.
+
+For an object, only invoke methods that belong to: The object itself, Objects passed in as a
+parameter, any object that is created or instantiated, any component (instance var) of the object
+
+ch 8 - Template
+
+Template: defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
+Template Method lets the subclasses redefine certain steps of al algorithm without changing the
+algorithm's structure.
+
+Don't call us, we'll call you. Low-level components can hook themselves into a system, but the
+high-level components determine when they are needed.
+
+Arrays.sort() is a variation of the Template pattern. It requires a class to implement the
+Comparable interface, and have a compareTo method that provides the algorithm on how to compare
+the objects.
+
+JFrame has a hook method paint(). It does nothing by default, and can be used to incorporate a
+graphic on the screen.
 
 
 

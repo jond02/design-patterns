@@ -12,13 +12,13 @@ public class DuckTestDrive {
         Turkey turkey = new WildTurkey();
         Duck duck2 = new TurkeyAdapter(turkey);
 
-        System.out.println("the turkey says");
-        turkey.gobble();
-        turkey.fly();
-
         System.out.println("the duck says");
         duck.quack();
         duck.fly();
+
+        System.out.println("the turkey says");
+        turkey.gobble();
+        turkey.fly();
 
         System.out.println("the turkey adapter says");
         duck2.quack();
