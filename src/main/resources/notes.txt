@@ -76,6 +76,11 @@ the objects.
 JFrame has a hook method paint(). It does nothing by default, and can be used to incorporate a
 graphic on the screen.
 
+ch 9 - Iterator
+
+Iterator: provides a way to access the elements of an aggregate object sequentially without
+exposing its underlying representation.
+
 
 
 
