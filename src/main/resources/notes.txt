@@ -81,9 +81,14 @@ ch 9 - Iterator
 Iterator: provides a way to access the elements of an aggregate object sequentially without
 exposing its underlying representation.
 
+ch 9 - Composite
 
+Composite: allows you to compose objects into tree structures to represent part-whole hierarchies.
+Composite lets clients treat individual objects and compositions of objects uniformly.
 
+Special Case: Null object design pattern.
 
+A class should have only one reason to change.
 
 
 
