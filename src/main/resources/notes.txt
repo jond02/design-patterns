@@ -90,6 +90,13 @@ Special Case: Null object design pattern.
 
 A class should have only one reason to change.
 
+10 - State
+
+State: allows an object to alter its behaviour when its internal state changes. The object will
+appear to change its class.
+
+
+11 - Proxy
 
 
 
